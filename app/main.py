@@ -9,7 +9,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:5173",
-    "https://air-quality-pred-frontend.vercel.app/",
+    "https://air-quality-pred-frontend.vercel.app",
 ]
 
 app.add_middleware(
